@@ -46,7 +46,7 @@ export default ({
     }
   },
   async mounted() {
-    let response = await fetch("https://darius-project.herokuapp.com/lesson", {
+    let response = await fetch("https://webstoreapp-env.eba-yi2fch33.eu-west-2.elasticbeanstalk.com/collections/lessons", {
       method: "GET",
     });
     let data = await response.json();
