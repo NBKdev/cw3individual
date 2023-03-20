@@ -46,7 +46,7 @@ export default ({
     }
   },
   async mounted() {
-    let response = await fetch("https://darius-project.herokuapp.com/api", {
+    let response = await fetch("https://darius-project.herokuapp.com/lesson", {
       method: "GET",
     });
     let data = await response.json();
